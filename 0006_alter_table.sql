@@ -1,2 +1,15 @@
+-- ADD COLUMN
 ALTER TABLE persons
 ADD email varchar(100);
+
+-- DROP COLUMN
+ALTER TABLE persons
+DROP COLUMN email;
+
+-- RENAME COLUMN
+ALTER TABLE persons
+RENAME COLUMN email to mail;
+
+-- MODIFY COLUMN
+ALTER TABLE persons
+MODIFY COLUMN mail int;
