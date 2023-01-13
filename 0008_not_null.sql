@@ -4,3 +4,7 @@ CREATE TABLE Persons (
     FirstName varchar(255) NOT NULL,
     Age int
 );
+
+-- alter
+ALTER TABLE Persons
+MODIFY COLUMN Age int NOT NULL;
