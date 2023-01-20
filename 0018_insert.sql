@@ -1,17 +1,16 @@
 --  single insert
-INSERT INTO Persons (ID, FirstName, LastName, Age)
-VALUES (1, 'Cardinal', 'Erichsen', 22);
+INSERT INTO persons (fullname, age)
+VALUES ("Awan", 15);
 
 -- multi insert
-INSERT INTO Persons (ID, FirstName, LastName, Age)
+INSERT INTO persons (fullname, age)
 VALUES 
-(2, 'Cardinal', 'Erichsen', 22),
-(3, 'Cardinal', 'Erichsen', 22),
-(4, 'Cardinal', 'Erichsen', 22),
-(5, 'Cardinal', 'Erichsen', 22),
-(6, 'Cardinal', 'Erichsen', 22),
-(7, 'Cardinal', 'Erichsen', 22),
-(8, 'Cardinal', 'Erichsen', 22),
-(9, 'Cardinal', 'Erichsen', 22),
-(10, 'Cardinal', 'Erichsen', 22)
+("Dina", 25),
+("Juni", 18),
+("Restina", 18),
+("Anna", 25),
+("Siti", 18),
+("Hawa", 25),
+("Annisa", 16),
+("Awan", 16)
 ;

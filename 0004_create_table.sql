@@ -1,4 +1,4 @@
-CREATE TABLE Persons (
-    ID int,
-    FullName varchar(255)
+CREATE TABLE persons (
+    fullname varchar(255),
+    age int
 );

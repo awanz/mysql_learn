@@ -1,5 +1,5 @@
-select distinct FirstName from Persons;
+select distinct fullname from persons;
 
-select distinct id from Persons;
+select distinct age from persons;
 
-select distinct id, FirstName from Persons;
+select distinct fullname, age from persons;
