@@ -1,0 +1,7 @@
+SELECT *
+FROM persons
+WHERE age IS NULL;
+
+SELECT *
+FROM persons
+WHERE age IS NOT NULL;

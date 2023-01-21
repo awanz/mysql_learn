@@ -14,3 +14,6 @@ VALUES
 ("Annisa", 16),
 ("Awan", 16)
 ;
+
+INSERT INTO persons (fullname, age)
+VALUES ("Bintang", null);
