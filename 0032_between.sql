@@ -1,0 +1,7 @@
+SELECT *
+FROM persons
+WHERE age BETWEEN 15 AND 19;
+
+SELECT *
+FROM persons
+WHERE age NOT BETWEEN 15 AND 19;
