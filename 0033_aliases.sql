@@ -1,0 +1,1 @@
+SELECT fullname as "Full Name" FROM persons;
