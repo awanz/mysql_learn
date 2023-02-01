@@ -1,0 +1,3 @@
+SELECT * FROM persons
+UNION
+SELECT * FROM persons
